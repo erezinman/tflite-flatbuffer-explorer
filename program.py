@@ -1,9 +1,8 @@
-import flatbuffers
+from tflite.ActivationFunctionType import ActivationFunctionType
+from tflite.BuiltinOperator import BuiltinOperator
+from tflite.BuiltinOptions import BuiltinOptions
 from tflite.Model import Model
 from tflite.TensorType import TensorType
-from tflite.BuiltinOperator import BuiltinOperator
-from tflite.ActivationFunctionType import ActivationFunctionType
-from tflite.BuiltinOptions import BuiltinOptions
 
 MODEL_LOCATION = r"C:\Users\erezi\Downloads\mnist_lenet5.tflite"
 
